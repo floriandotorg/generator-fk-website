@@ -9,7 +9,8 @@ npm i -g generator-fk-website
 ## Features
 
 * [Gulp](http://gulpjs.com) task-runner
-* SCSS with [libsass](* Simple [Templating](https://github.com/coderhaoxin/gulp-file-include))
+* SCSS with [libsass](https://github.com/sass/libsass)
+* Simple [Templating](https://github.com/coderhaoxin/gulp-file-include))
 * [SMACSS](https://smacss.com) Support
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 * CSS [Pleeease](http://pleeease.io)

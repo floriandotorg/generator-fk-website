@@ -1,6 +1,6 @@
 {
   "name": "generator-fk-website",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Scaffold out a static website",
   "author": "Florian Kaiser",
   "main": "app/index.js",
