@@ -1,0 +1,10 @@
+{
+  "name": "<%= slugName %>",
+  "private": true,
+  "dependencies": {
+    "normalize-css": "~3.0.0",
+    "bourbon": "~4.2.5",
+    "neat": "~1.7.0"
+  },
+  "devDependencies": {}
+}

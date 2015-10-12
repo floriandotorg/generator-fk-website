@@ -1,0 +1,36 @@
+{
+  "name": "generator-fk-website",
+  "version": "0.1.0",
+  "description": "Scaffold out a static website",
+  "author": "Florian Kaiser",
+  "main": "app/index.js",
+  "repository": "https://github.com/floriandotorg/generator-fk-website",
+  "license": "WTFPL",
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "web",
+    "static",
+    "front-end",
+    "pleeease",
+    "modernizr",
+    "jquery",
+    "gulp"
+  ],
+  "dependencies": {
+    "chalk": "~1.1.1",
+    "cheerio": "~0.19.0",
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "~0.20.3",
+    "yosay": "^1.0.5"
+  },
+  "peerDependencies": {
+    "yo": ">=1.4.8"
+  }
+}
