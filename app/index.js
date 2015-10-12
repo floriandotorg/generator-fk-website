@@ -90,6 +90,21 @@ module.exports = generators.Base.extend({
         this.templatePath('main.scss'),
         this.destinationPath('app/styles/main.scss')
       );
+
+      this.fs.copy(
+        this.templatePath('base.scss'),
+        this.destinationPath('app/styles/base.scss')
+      );
+
+      this.fs.copy(
+        this.templatePath('layout.scss'),
+        this.destinationPath('app/styles/layouts/layout.scss')
+      );
+
+      this.fs.copy(
+        this.templatePath('feature.scss'),
+        this.destinationPath('app/styles/modules/feature.scss')
+      );
     },
 
     favicon: function() {
@@ -103,6 +118,11 @@ module.exports = generators.Base.extend({
       this.fs.copy(
         this.templatePath('index.html'),
         this.destinationPath('app/index.html')
+      );
+
+      this.fs.copy(
+        this.templatePath('content.html'),
+        this.destinationPath('app/content.html')
       );
 
       this.fs.copyTpl(

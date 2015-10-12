@@ -1,0 +1,27 @@
+.container {
+  @include outer-container;
+}
+
+#header {
+
+}
+
+#logo {
+
+}
+
+#main-nav {
+
+}
+
+#main {
+  margin-top: 50px;
+
+  > .feature {
+    @include span-columns(1);
+  }
+}
+
+#footer {
+
+}
